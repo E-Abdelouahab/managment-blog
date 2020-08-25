@@ -1,0 +1,309 @@
+body{
+  margin: 0;
+padding-bottom: 100px;
+}
+
+
+.navbar-nav li a {
+    font-family: "montserrat", sans-serif;
+
+}
+
+nav a {
+    font-family: "montserrat", sans-serif;
+
+}
+
+
+
+
+
+/* Scroll Bar css */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid  #f8f9fa;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, .5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #232943;
+    border-radius: 3px;
+}
+
+/* start css card section */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.news{
+  margin-top: 40px;
+}
+.card-body h3 {
+   font-family: 'Montserrat SemiBold', sans-serif;
+    text-align: center;
+    font-size: 34px;
+}
+.card-body p {
+    font-family: 'Montserrat medium', sans-serif;
+    word-break: break-all;
+    font-size: 19px;
+}
+
+
+/* end css card section */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.section1 {
+    padding: 100px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.card-pub {
+    margin-top: 30px;
+    position: relative;
+    height: 438px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px;
+}
+
+.card-pub .post-image {
+    height: 343px;
+    overflow: hidden;
+}
+
+.card-pub .post-image img {
+    transition: .5s;
+}
+
+.card-pub:hover .post-image img {
+    transform: scale(1.2) translateY(-50px);
+}
+
+.card-pub .news-content {
+    position: absolute;
+    padding: 20px;
+    bottom: -150px;
+    background: #fff;
+    transition: .5s;
+}
+
+.card-pub:hover .news-content {
+    bottom: 0px;
+    width: 100%;
+}
+
+.card-pub .category {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    height: 30px;
+    background: #00b8F4;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.card-pub .news-content .post-meta a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: ;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.card-pub .news-content .post-meta a:hover {
+    color: #DF084A;
+}
+
+.card-pub .news-content .post-header {
+    margin: 0;
+    padding: 10px 0;
+    color: #007DA6;
+    height: 75px;
+
+    font-size: 28px;
+    overflow: hidden;
+}
+
+.card-pub .news-content p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    padding: 0;
+    color: ;
+    transition: .5s;
+    opacity: 0;
+    word-break: break-all;
+}
+
+.card-pub:hover .news-content p {
+    opacity: 1;
+}
+
+.card-pub .icone {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-pub .icone a i {
+    background: none;
+    z-index: 100;
+}
+
+/* start css two button login && log Up */
+form .buttn{
+  display: flex;
+justify-content: space-between;
+}
+
+.button{
+  margin-right: 12px;
+}
+
+.button a {
+    width: 100px;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.button a:before {
+
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 12px);
+    background: #f8f9fa;
+    transition: 0.5s ease-in-out;
+    transform: scaleY(1);
+    transition-delay: 0.5s;
+}
+
+.button a:hover:before {
+
+    transform: scaleY(0);
+}
+
+.button a span {
+    position: relative;
+    z-index: 3;
+
+}
+
+.button a:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% - 12px);
+    background: #f8f9fa;
+    transition: 0.5s ease-in-out;
+    transform: scaleX(1);
+}
+
+.button a:hover:after {
+    transform: scaleX(0);
+}
+
+/* end css two button ligin && log up */
+
+/* start css contact us*/
+.wrapper {
+
+    box-sizing: border-box;
+    background: #fff;
+    padding: 30px;
+}
+
+.wrapper h2 {
+    color: #666;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.input-field {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #666;
+    font-size: 16px;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.input-field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.input-field input:focus+label,
+.input-field textarea:focus+label {
+    top: -25px;
+    font-size: 14px;
+    padding: 2px 5px;
+    background: #ff006a;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn {
+    margin-top: 20px;
+    background: #ff006a;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #6b3aff;
+}
